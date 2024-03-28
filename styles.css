@@ -1,0 +1,125 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background-aluraflix.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 170px;
+}
+
+.alura-latam-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+.catalog{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.catalog .youtuber{
+  background-image: linear-gradient(transparent 10%, #22333f 10%, #203847 100%);
+  flex: 200px;
+  min-width: 200px;
+  height: 350px;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  padding: 10px 0;
+}
+
+.catalog .youtuber .avatar{
+  width: 100px;
+  height: 100px;
+  min-height: 100px;
+  overflow: hidden;
+  border-radius: 9999px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalog .youtuber .avatar img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.catalog .youtuber .info{
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog .youtuber .info .name{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.catalog .youtuber .info .suscribers span{
+  font-weight: bold;
+}
+
+.catalog .youtuber .createdAt{
+  margin-top: 10px;
+  flex: 1;
+}
+
+.catalog .youtuber .createdAt span{
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.catalog .youtuber .btn{
+  margin-top: 20px;
+  width: 80%;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(218, 27, 27);
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.catalog .youtuber .btn:hover{
+  opacity: 0.9;
+}
