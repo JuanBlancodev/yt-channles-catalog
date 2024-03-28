@@ -15,6 +15,9 @@ Como desafío adicional, decidí adaptar el proyecto para mostrar información s
 - Estilo personalizado con tarjetas para cada YouTuber.
 - Utilización de JavaScript para agregar a los Youtubers al DOM
 
+## Demo
+Puedes visualizar una `Demo` de la página [aquí](https://juanblancodev.github.io/yt-channles-catalog/)
+
 ## Capturas de Pantalla
 Aquí 3 capturas de pantalla sobre como se ve el proyecto adaptado a diferentes dispositivos
 
